@@ -9,9 +9,9 @@
 		<relativePath />
 	</parent>
 	<groupId>com.api.sportyshoes</groupId>
-	<artifactId>sporty_shoes</artifactId>
+	<artifactId>SportyShoes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sporty_shoes</name>
+	<name>SportyShoes</name>
 	<description>Spring Boot</description>
 
 	<properties>

@@ -36,21 +36,11 @@ public class PurchaseReport {
 	@Id
 	@GeneratedValue
 	private int id;
-	private String purchasedBy; // This can be extended to utilize one to one relation with User Table [Future Implemetations]
+	private String purchasedBy; 
 	private String category;
 	
 	@Temporal(TemporalType.DATE)
 	private Date dop;
-	
-/**
- * This can be used for storing orderlist as <Qty, Shoe>
- * Here implementation is made simple by using shoeId instead
- * of shoe in string format.
- */
-//	@ManyToMany(cascade = CascadeType.ALL)
-//	Map<Integer,Shoe> orderList = new HashMap<Integer,Shoe>();
-//								OR
-//	Map<Integer,Integer> orderList = new HashMap<Integer,Integer>();
 	
 	String orderList;
 	
